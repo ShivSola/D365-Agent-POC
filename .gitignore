@@ -9,8 +9,6 @@ appsettings.Development.json
 *.key
 *.p12
 *.pfx
-.vscode/mcp.json
-.mcp.json
 
 # Data Package Files
 *.zip
@@ -26,3 +24,5 @@ Import_Errors_*.csv
 
 # VS Code
 .vscode/settings.json
+.vscode/mcp.json
+.mcp.json
