@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "microsoftdocs/mcp": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "dynamics365": {
+      "type": "http",
+      "url": "https://YOUR-ENVIRONMENT.sandbox.operations.dynamics.com/mcp",
+      "authorization": {
+        "type": "vscode",
+        "providerId": "microsoft",
+        "scopes": ["https://YOUR-ENVIRONMENT.sandbox.operations.dynamics.com/.default"]
+      }
+    }
+  },
+  "inputs": []
+}
